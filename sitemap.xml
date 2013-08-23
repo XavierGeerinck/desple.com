@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://desple.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.5.3-alpha" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
+<!-- generated-on="August 4, 2013 11:14 am" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://desple.com/</loc>
+		<lastmod>2013-08-01T08:31:51+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 43: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://desple.com/2013/08/01/mac-unlock-dmg-files/</loc>
+		<lastmod>2013-08-01T08:31:51+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 38: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://desple.com/2013/07/31/samba-file-limits/</loc>
+		<lastmod>2013-08-01T08:30:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 7: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://desple.com/2013/07/27/vagran/</loc>
+		<lastmod>2013-07-27T19:14:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://desple.com/2013/07/15/hello-world/</loc>
+		<lastmod>2013-07-15T12:59:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://desple.com/sample-page/</loc>
+		<lastmod>2013-07-15T10:33:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>
