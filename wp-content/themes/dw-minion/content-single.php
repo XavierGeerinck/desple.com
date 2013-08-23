@@ -35,10 +35,5 @@
 			</span>
 		</div>
 		<?php endif; ?>
-
-		<div class="entry-social">
-			<span class="social-title"><?php _e( 'Share', 'dw-minion' ); ?></span>
-			<?php dw_social_sharing(); ?>
-		</div>
 	</footer>
 </article>

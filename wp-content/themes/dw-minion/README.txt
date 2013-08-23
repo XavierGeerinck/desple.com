@@ -1,22 +1,26 @@
 === DW Minion ===
 Author: DesignWall
 Author URL: http://www.designwall.com
-Requires at least: 3.5.2
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == About ==
 FREE Responsive WordPress Theme For Personal Blog
 
-== Theme Installation ==
-This section describes how to install the theme into your existing WordPress site:
+DW Minion WordPress theme, Copyright (C) 2013 DesignWall
+DW Minion WordPress theme is licensed under the GPL v3.0
 
-1. Log in to WordPress Administration Panels.
-2. Select the `Appearance` panel, then select `Themes`.
-3. Click on `Install Themes`.
-4. Click on `Upload` on the top sub-menu and browse the `dw-minion_1.0.0_theme.zip` file, then click on `Install now` button.
-5. Click on the `Live Preview` link to preview the Theme or `Active` link to start using the Theme.
+DW Minion is built with the following resources:
+
+Bootstrap 2.3.2 http://getbootstrap.com/2.3.2/ - Copyright: @mdo: twitter.com/mdo and @fat: twitter.com/fat
+
+Icon Fonts: Font Awesome - http://fortawesome.github.io/Font-Awesome/ - Copyright: Dave Gandy, twitter.com/davegandy
+
+Scripts:
+iScroll v4.2.5 - Copyright (c) 2012 Matteo Spinelli, http://cubiq.org
+Released under MIT license, http://cubiq.org/license
+
+Modernizr 2.6.2 - http://modernizr.com/
 
 == Support ==
 Please post your questions in Questions & Answers page or drop us an email to help@designwall.com

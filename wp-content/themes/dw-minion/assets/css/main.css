@@ -1866,6 +1866,8 @@ body {
   line-height: 25px;
   color: #666666;
   background-color: #222222;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 #page {
   background-color: #ffffff;
@@ -3212,10 +3214,36 @@ legend + .control-group {
   padding-left: 180px;
 }
 table {
-  max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 25px;
+}
+table th,
+table td {
+  padding: 8px;
+  line-height: 25px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #e5e5e5;
+}
+table th {
+  font-weight: bold;
+}
+table thead th {
+  vertical-align: bottom;
+}
+table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+table tbody + tbody {
+  border-top: 2px solid #e5e5e5;
+}
+table .table {
+  background-color: #222222;
 }
 .table {
   width: 100%;
@@ -4598,8 +4626,35 @@ input[type="submit"].btn-small {
   width: 100%;
   height: auto;
 }
-.entry-content {
+.entry-content,
+.page-content {
   font-family: 'Roboto Slab', serif;
+  overflow: hidden;
+  *zoom: 1;
+}
+.entry-content:before,
+.page-content:before,
+.entry-content:after,
+.page-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.entry-content:after,
+.page-content:after {
+  clear: both;
+}
+.entry-content:before,
+.page-content:before,
+.entry-content:after,
+.page-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.entry-content:after,
+.page-content:after {
+  clear: both;
 }
 .more-link {
   display: block;

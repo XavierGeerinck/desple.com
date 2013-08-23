@@ -1,7 +1,7 @@
 <?php
 include_once ABSPATH . 'wp-includes/class-wp-customize-control.php';
 
-class Textarea_Custom_Control extends WP_Customize_Control {
+class DW_Minion_Textarea_Custom_Control extends WP_Customize_Control {
 
   public $type = 'textarea';
 
@@ -32,7 +32,7 @@ function dw_minion_customize_register( $wp_customize ) {
     'type'           => 'option',
   ));
 
-  $wp_customize->add_control( new Textarea_Custom_Control($wp_customize, 'about', array(
+  $wp_customize->add_control( new DW_Minion_Textarea_Custom_Control($wp_customize, 'about', array(
     'label'      => __('About', 'dw-minion'),
     'section'    => 'title_tagline',
     'settings'   => 'dw_minion_theme_options[about]',
@@ -72,7 +72,7 @@ function dw_minion_customize_register( $wp_customize ) {
   ));
 
   $wp_customize->add_setting('dw_minion_theme_options[facebook]', array(
-    'default'        => 'http://facebook.com/wp.designwall',
+    'default'        => '',
     'capability'     => 'edit_theme_options',
     'type'           => 'option',
   ));
@@ -84,7 +84,7 @@ function dw_minion_customize_register( $wp_customize ) {
   ));
 
   $wp_customize->add_setting('dw_minion_theme_options[twitter]', array(
-    'default'        => 'http://twitter.com/designwall_com',
+    'default'        => '',
     'capability'     => 'edit_theme_options',
     'type'           => 'option',
   ));
@@ -96,7 +96,7 @@ function dw_minion_customize_register( $wp_customize ) {
   ));
 
   $wp_customize->add_setting('dw_minion_theme_options[google_plus]', array(
-    'default'        => 'https://plus.google.com/111081614492699228740/',
+    'default'        => '',
     'capability'     => 'edit_theme_options',
     'type'           => 'option',
   ));
@@ -108,7 +108,7 @@ function dw_minion_customize_register( $wp_customize ) {
   ));
 
   $wp_customize->add_setting('dw_minion_theme_options[youtube]', array(
-    'default'        => 'http://www.youtube.com/user/DesignWallChannel',
+    'default'        => '',
     'capability'     => 'edit_theme_options',
     'type'           => 'option',
   ));
@@ -120,7 +120,7 @@ function dw_minion_customize_register( $wp_customize ) {
   ));
 
   $wp_customize->add_setting('dw_minion_theme_options[linkedin]', array(
-    'default'        => 'http://www.linkedin.com/in/hungdv',
+    'default'        => '',
     'capability'     => 'edit_theme_options',
     'type'           => 'option',
   ));
@@ -133,7 +133,7 @@ function dw_minion_customize_register( $wp_customize ) {
 }
 add_action( 'customize_register', 'dw_minion_customize_register' );
 
-function dw_get_theme_option( $option_name, $default = '' ) {
+function dw_minion_get_theme_option( $option_name, $default = '' ) {
   $options = get_option( 'dw_minion_theme_options' );
   if( isset($options[$option_name]) ) {
     return $options[$option_name];
